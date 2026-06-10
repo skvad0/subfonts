@@ -51,16 +51,6 @@ ollama pull phi3
 go build -o subfonts .
 ```
 
-## Run Tests
-
-```bash
-# Unit + mock tests (no external dependencies)
-go test ./...
-
-# Integration test against a live Ollama instance
-$env:OLLAMA_INTEGRATION="true"; go test -v -run TestNormalizeFontsWithAI_Integration
-```
-
 ## Supported Formats
 
 | Format | Detection Method |
