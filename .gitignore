@@ -1,0 +1,30 @@
+# Compiled binaries
+subfonts
+subfonts.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+*.out
+
+# Downloaded fonts output
+/fonts/
+
+# Environment / secrets
+.env
+*.env
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
